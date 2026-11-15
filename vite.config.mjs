@@ -12,6 +12,7 @@ export default defineConfig({
   base: process.env.GITHUB_PAGES_BASE || "/",
   build: {
     outDir: "dist/client",
+    rollupOptions: { input: ["index.html", "practice-speaking-spanish/index.html"] },
   },
   optimizeDeps: {
     include: ["react", "react-dom/client"],

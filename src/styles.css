@@ -3727,3 +3727,7 @@ footer .footer-link:hover { color: var(--blue-deep); }
 @media (max-width: 540px) {
   footer .footer-link { display: inline-flex; min-height: 44px; align-items: center; }
 }
+
+@media (max-width: 380px) {
+  .hero h1 span:nth-child(4) { margin-left: 2vw; }
+}

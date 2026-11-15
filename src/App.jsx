@@ -464,10 +464,10 @@ function App() {
         <div className="hero-copy">
           <p className="kicker"><Sparkle weight="fill" /> Your language learning partner</p>
           <h1>
-            <span>Discover a</span>
-            <span>new way to</span>
-            <span>master speaking</span>
-            <span>confidently</span>
+            <span>Practice </span>
+            <span>speaking a </span>
+            <span>new language </span>
+            <span>with an AI tutor</span>
           </h1>
         </div>
 
@@ -721,6 +721,7 @@ function App() {
         <img src={asset("linguastar-logo.webp")} width="418" height="106" alt="LinguaStar" />
         <p>Discover a new way to master speaking confidently.</p>
         <div>
+          <a href={`${import.meta.env.BASE_URL}practice-speaking-spanish/`}>Spanish speaking practice</a>
           <a href={`${import.meta.env.BASE_URL}privacy-policy.html`}>Privacy Policy</a>
           <a href={`${import.meta.env.BASE_URL}terms-and-conditions.html`}>Terms &amp; Conditions</a>
           {analyticsAvailable && (

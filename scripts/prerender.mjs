@@ -18,7 +18,7 @@ const siteUrl = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
 if (!siteUrl) throw new Error("prerender: canonical address not found in index.html");
 
 // Indexable pages only; /privacypolicy/ and /termsandconditions/ are redirects.
-const pages = ["", "download.html", "support/", "privacy-policy.html", "terms-and-conditions.html"];
+const pages = ["", "practice-speaking-spanish/", "download.html", "support/", "privacy-policy.html", "terms-and-conditions.html"];
 writeFileSync(
   new URL("sitemap.xml", clientDir),
   `<?xml version="1.0" encoding="UTF-8"?>
