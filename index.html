@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Speak a new language with confidence. Practice real conversations, refine your pronunciation, and learn at your pace with LinguaStar AI tutors." />
+    <meta name="description" content="Practice a café order or talk about your weekend with an AI tutor that replies at your level. Get feedback on your pronunciation as you speak." />
     <meta name="theme-color" content="#dedcf8" />
     <!-- Absolute addresses are filled in at build time from SITE_URL (vite.config.mjs). -->
     <link rel="canonical" href="__SITE_URL__/" />
@@ -11,19 +11,36 @@
     <meta property="og:site_name" content="LinguaStar" />
     <meta property="og:url" content="__SITE_URL__/" />
     <meta property="og:title" content="LinguaStar – AI Language Tutor for iPhone" />
-    <meta property="og:description" content="Speak a new language with confidence. Practice real conversations, refine your pronunciation, and learn at your pace with LinguaStar AI tutors." />
-    <meta property="og:image" content="__SITE_URL__/assets/og-image.jpg" />
+    <meta property="og:description" content="Practice a café order or talk about your weekend with an AI tutor that replies at your level. Get feedback on your pronunciation as you speak." />
+    <meta property="og:image" content="__SITE_URL__/assets/linguastar-app-icon-square.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="LinguaStar: speak a new language with confidence, with real conversations and pronunciation practice with AI tutors." />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="LinguaStar app icon with three white stars on a purple-to-blue gradient." />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="__SITE_URL__/assets/og-image.jpg" />
+    <meta name="twitter:image:alt" content="LinguaStar speaking practice on iPhone." />
     <!-- Safari on iPhone shows Apple's Smart App Banner for the app. -->
     <meta name="apple-itunes-app" content="app-id=6746935816" />
     <link rel="icon" type="image/webp" href="%BASE_URL%assets/app-icon.webp" />
     <link rel="preload" as="image" href="%BASE_URL%assets/phone-ai-tutor.webp" fetchpriority="high" />
     <title>LinguaStar – AI Language Tutor for iPhone</title>
-    <!-- Describes the app to search engines and AI assistants. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "LinguaStar",
+        "url": "__SITE_URL__/"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "url": "__SITE_URL__/",
+        "primaryImageOfPage": "__SITE_URL__/assets/linguastar-app-icon-square.jpg"
+      }
+    </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -31,7 +48,7 @@
         "name": "LinguaStar",
         "url": "__SITE_URL__/",
         "image": "__SITE_URL__/assets/app-icon.webp",
-        "description": "Speak a new language with confidence. Practice real conversations, refine your pronunciation, and learn at your pace with LinguaStar AI tutors.",
+        "description": "Practice a café order or talk about your weekend with an AI tutor that replies at your level. Get feedback on your pronunciation as you speak.",
         "applicationCategory": "EducationalApplication",
         "operatingSystem": "iOS",
         "installUrl": "https://apps.apple.com/app/id6746935816",
